@@ -88,6 +88,10 @@
    border: none;
    background-color: var(--frame);
 }
+.frame-btn:hover{
+    background-color: var(--bg-hover);
+    color: var(--frame);
+}
 .frame-btn a{
     font-size: 15px;
     font-weight: 500;
@@ -277,6 +281,9 @@
     color: var(--our-link);
     border: none;
     border-radius: 15px;
+}
+.get-btn:hover{
+    background-color: var(--bg-hover);
 }
 .get-btn a{
     color: var(--our-link);
