@@ -1,3 +1,10 @@
+:root {
+    --our-link: #333136;
+    --frame: #ffff;
+    --footer-links:#E7816B;
+    --bg-hover: #FFAD9B;
+    --bg-footer:#1D1C1E;
+}
 
 .box-content {
     width: 100%;
@@ -128,7 +135,7 @@
     margin: 107px 144px;
 }
 .talk-app{
-    color: #FFF;
+    color: var(--frame);
     text-align: center;
     font-family: Jost;
     font-size: 40px;
@@ -138,7 +145,7 @@
     letter-spacing: 2px;
 }
 .talk-view{
-    color: #FFF;
+    color: var(--frame);
     font-family: Jost;
     font-size: 15px;
     font-style: normal;

@@ -1,3 +1,11 @@
+:root {
+    --our-link: #333136;
+    --frame: #ffff;
+    --footer-links:#E7816B;
+    --bg-hover: #FFAD9B;
+    --bg-footer:#1D1C1E;
+}
+
 .container {
     width: 100%;
     max-width: 1240px;
@@ -16,7 +24,7 @@
     display: flex;
     align-items: center;
     gap: 42px;
-    color: #1D1C1E;
+    color: var(--bg-footer);
 }
 .our-heading{
     text-decoration: none ;
@@ -34,7 +42,7 @@
     height: 480px;
     margin: auto;
     text-align: center;
-    background-color: #E7816B;
+    background-color: var(--footer-links);
     padding: 64px 0;
     margin-bottom: 166px;
     display: flex;
